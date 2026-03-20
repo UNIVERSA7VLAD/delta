@@ -15,7 +15,7 @@
 irm bit.ly/deelta | iex
 ```
 3. Enter the values for **a**, **b**, and **c** separated by spaces (e.g., ``1 -5 6``) or by speparing them by pressing enter.
-4. The result will display the roots (x₁, x₂) and the discriminant (Δ).
+4. The result will display the roots (x₁,x₂) and the discriminant (Δ).
 5. Enter new values to continue or close the window to exit.
 
 ## Build Instructions
