@@ -27,4 +27,3 @@ If you want to compile it yourself in Visual Studio:
 
 ## License
 This project is open-source and available under the MIT License.
-"@
