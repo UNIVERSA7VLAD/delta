@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="delta/delta.vcxproj" Id="4e1c41bf-e204-4c81-884e-b1c50edae89e" />
+</Solution>
