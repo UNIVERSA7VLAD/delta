@@ -1,7 +1,7 @@
 # delta
 
 ## Features
-- **Extremly Lghtweight**: Just a 30 line code.
+- **Extremly Lightweight**: Just a 30 line code.
 - **Usable on every Windows PC**: Straight from Powershell, no need to download anything. It is just a simple command. 
 - **Delta Analysis**: Detects positive, zero, and negative discriminants.
 - **High Precision**: Uses `double` floating-point math for 100% accuracy.
