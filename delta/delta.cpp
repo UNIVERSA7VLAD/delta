@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <cmath>
 #include <string>
+#include <windows.h>
 using namespace std;
 double a, b, c, delta;
 
@@ -18,11 +19,14 @@ void calc(double a, double b, double c)
 		cout << "x1= " << (-b + sqrt(delta)) / (2.0 * a) << "\nx2= " << (-b - sqrt(delta)) / (2.0 * a) << "\nfor a= " << a << " b= " << b << " c= " << c << " delta= " << delta;
 	}
 	cout << string(2, '\n');
+	cout << "From the formula ax\xC2\xB2+bx+c" << endl << "Enter a, b and c:" << endl;
 }
 
 int main()
 {
+	SetConsoleOutputCP(65001);
 	system("cls");
+	cout << "From the formula ax\xC2\xB2+bx+c" << endl << "Enter a, b and c:" << endl;
 	while (cin >> a >> b >> c) {
 		system("cls");
 		calc(a, b, c);
